@@ -27936,15 +27936,18 @@ div#runtime {
   transform: rotate(0);
   transition: 0.3s;
 }
+
 #skills-tags-group-all .tags-group-wrapper {
   margin-top: 40px;
   display: flex;
   flex-wrap: nowrap;
   animation: rowup 60s linear infinite;
 }
+
 #skills-tags-group-all .tags-group-icon-pair {
   margin-left: 1rem;
 }
+
 #skills-tags-group-all .tags-group-icon {
   display: flex;
   align-items: center;
@@ -27957,13 +27960,16 @@ div#runtime {
   height: 120px;
   border-radius: 30px;
 }
+
 #skills-tags-group-all .tags-group-icon img {
-  width: 60px;
+  width: 120px;
   margin: 0 auto !important;
 }
+
 [data-theme="dark"] #skills-tags-group-all .tags-group-icon img {
   filter: none;
 }
+
 #skills-tags-group-all .tags-group-icon-pair .tags-group-icon:nth-child(even) {
   margin-top: 1rem;
   transform: translate(-60px);
@@ -27978,11 +27984,11 @@ div#runtime {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
   }
 }
-
 #article-container .tag-Link {
   background: var(--anzhiyu-secondbg);
   border-radius: 8px !important;
